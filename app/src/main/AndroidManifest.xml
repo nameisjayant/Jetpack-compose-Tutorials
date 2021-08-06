@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeYt">
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".composeTutorials.MainActivity"/>
+        <activity android:name=".composeTutorials.LoginActivity"/>
         <activity
-            android:name=".LoginActivity"
+            android:name=".composeTutorials.RecyclerviewActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ComposeYt.NoActionBar">

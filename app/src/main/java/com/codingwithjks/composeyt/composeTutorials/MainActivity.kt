@@ -1,4 +1,4 @@
-package com.codingwithjks.composeyt
+package com.codingwithjks.composeyt.composeTutorials
 
 import android.content.res.Configuration
 import android.os.Bundle
