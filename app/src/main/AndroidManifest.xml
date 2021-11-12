@@ -16,8 +16,9 @@
         <activity android:name=".composeTutorials.LoginActivity"/>
         <activity android:name=".todo.data.ui.TodoActivity"/>
         <activity android:name=".Retrofit.ui.RetrofitActivity"/>
+        <activity android:name=".composeTutorials.states.StateActivity"/>
         <activity
-            android:name=".composeTutorials.states.StateActivity"
+            android:name=".viewpager.OnBoardingActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ComposeYt.NoActionBar">
