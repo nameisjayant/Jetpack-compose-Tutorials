@@ -11,7 +11,7 @@ import com.codingwithjks.composeyt.composeTutorials.navigation.utils.NavigationS
 fun FirstScreen(navHostController: NavHostController) {
 
    Button(onClick = {
-       navHostController.navigate(NavigationScreen.SecondScreen.route)
+       navHostController.navigate(NavigationScreen.SecondScreen.createRoute("Hey"))
    }) {
        Text(text = "Click here")
    }

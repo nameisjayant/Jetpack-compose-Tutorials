@@ -7,6 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.codingwithjks.composeyt.composeTutorials.navigation.screens.FirstScreen
 import com.codingwithjks.composeyt.composeTutorials.navigation.screens.SecondScreen
+import com.codingwithjks.composeyt.composeTutorials.navigation.screens.ThirdScreen
 import com.codingwithjks.composeyt.composeTutorials.navigation.utils.NavigationScreen
 
 
@@ -20,7 +21,11 @@ fun StartNavigation(context:Activity) {
             FirstScreen(navController)
         }
         composable(NavigationScreen.SecondScreen.route){
-            SecondScreen(context)
+            val data = it.arguments?.getString("data")
+            SecondScreen(context,navController)
+        }
+        composable(NavigationScreen.ThirdScreen.route){
+            ThirdScreen()
         }
     }
 }
