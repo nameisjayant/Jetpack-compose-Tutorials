@@ -2,7 +2,7 @@
 
 - Basics of compose
 - Retrofit
-- Room Database
+- Room Database.
 - Navigation Component.
 - ViewPager.
 - custom ui.
