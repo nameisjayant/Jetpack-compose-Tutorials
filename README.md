@@ -5,6 +5,6 @@
 - Room Database.
 - Navigation Component.
 - ViewPager.
-- custom ui.
+- custom ui
 ----------
 ---------
