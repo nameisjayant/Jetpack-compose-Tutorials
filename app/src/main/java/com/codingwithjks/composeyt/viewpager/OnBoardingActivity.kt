@@ -10,13 +10,13 @@ import com.google.accompanist.pager.ExperimentalPagerApi
 
 class OnBoardingActivity : ComponentActivity() {
 
-    @ExperimentalPagerApi
-    @ExperimentalAnimationApi
+
+    @OptIn(ExperimentalAnimationApi::class, ExperimentalPagerApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent{
             ComposeYtTheme {
-                androidx.compose.material.Surface {
+                Surface {
                     OnBoardingScreen()
                 }
             }

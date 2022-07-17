@@ -3,6 +3,8 @@ package com.codingwithjks.composeyt.composeTutorials.components
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import com.codingwithjks.composeyt.composeTutorials.components.screen.CheckBoxUi
+import com.codingwithjks.composeyt.composeTutorials.components.screen.RadioButtonUi
 import com.codingwithjks.composeyt.ui.theme.ComposeYtTheme
 
 class ComposeActivity : ComponentActivity(){
@@ -11,8 +13,8 @@ class ComposeActivity : ComponentActivity(){
         super.onCreate(savedInstanceState)
         setContent {
             ComposeYtTheme() {
-                androidx.compose.material.Surface() {
-
+                androidx.compose.material.Surface {
+                    RadioButtonUi()
                 }
             }
         }
