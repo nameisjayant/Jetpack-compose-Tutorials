@@ -4,6 +4,6 @@
 - Retrofit.
 - Room Database.
 - Navigation Component.
-- ViewPager.
-- custom ui.
+- ViewPager
+- custom ui
 - Row & Column
