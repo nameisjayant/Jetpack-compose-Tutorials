@@ -1,9 +1,9 @@
 # Jetpack-compose-yt
 
 - Basics of compose
-- Retrofit.
-- Room Database.
-- Navigation Component.
+- Retrofit
+- Room Database
+- Navigation Component
 - ViewPager
 - custom ui
 - Row & Column
