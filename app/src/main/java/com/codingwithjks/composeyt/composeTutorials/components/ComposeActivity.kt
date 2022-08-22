@@ -22,24 +22,7 @@ class ComposeActivity : ComponentActivity(){
                 androidx.compose.material.Surface {
                     val scaffoldState = rememberScaffoldState()
                     val scope = rememberCoroutineScope()
-                    Scaffold(
-                        scaffoldState = scaffoldState,
-                        drawerContent = {
-                            Column() {
-                                IconButton(onClick = {
-                                    scope.launch {
-                                        scaffoldState.drawerState.close()
-                                    }
-                                }) {
-                                    Icon(Icons.Default.Close, contentDescription = "", tint = Color.Blue)
-                                }
-                                Text(text = "Drawer Content")
-                            }
-                        },
-                        drawerGesturesEnabled = false
-                    ) {
-                        CreateDrawer(scaffoldState = scaffoldState)
-                    }
+                    ParentContent()
                 }
             }
         }
