@@ -22,7 +22,7 @@ class ComposeActivity : ComponentActivity(){
                 androidx.compose.material.Surface {
                     val scaffoldState = rememberScaffoldState()
                     val scope = rememberCoroutineScope()
-                    ParentContent()
+                    CustomTitleBar()
                 }
             }
         }
